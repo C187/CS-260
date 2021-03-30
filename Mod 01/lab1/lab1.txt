@@ -1,0 +1,10 @@
+lab1:
+[0m[00mhello.cpp[0m
+[00mmakefile[0m
+[00;32mmyNewHello[0m
+all:
+		g++ -o myNewHello hello.cpp
+
+clean:
+	        rm myNewHello
+
